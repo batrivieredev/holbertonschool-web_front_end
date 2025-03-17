@@ -220,6 +220,13 @@ a {
     font-weight: var(--font-weight-bold);
 }
 
+/* Targeting the container class */
+.container {
+    width: 960px; /* Set the width to 960px */
+    margin-left: auto; /* Evenly distribute the margin on the left side */
+    margin-right: auto; /* Evenly distribute the margin on the right side */
+}
+
 /* Targeting anchor elements with hyperlinks */
 a:link {
     font-style: italic;
